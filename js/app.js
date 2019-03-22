@@ -21,7 +21,6 @@ function getPredictions() {
     function prediction_to_probabilities(prediction){
         var label_pred = new Object();
         for (var i = 0; i < prediction.length; i++){
-            prediction[i] = Math.floor(prediction[i]*100);
             label_pred[prediction[i]] = labels[i];
         }
         return label_pred;
