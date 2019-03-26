@@ -1,5 +1,7 @@
-labels = ['Action', 'Animation', 'Comedy', 'Drama', 
-'Family', 'Fantasy', 'Horror','Romance', 'Thriller'];
+// labels = ['Action', 'Animation', 'Comedy', 'Drama', 
+// 'Family', 'Fantasy', 'Horror','Romance', 'Thriller'];
+
+const labels = ['Action', 'Adventure', 'Animation', 'Comedy', 'Drama', 'Fantasy', 'Horror', 'Romance', 'Thriller'];
 
 function getPredictions() {
 
@@ -34,7 +36,10 @@ function getPredictions() {
         var probs = prediction_to_probabilities(prediction);
         prediction = prediction.sort().reverse();
         console.log(probs[prediction[0]]);
-        var text = document.createTextNode("I think your movie has the genres: " + probs[prediction[0]] +", " + probs[prediction[1]]);
+        var text = document.createTextNode("I think your movie has the genres: " 
+        + probs[prediction[0]] 
+        + ", " + probs[prediction[1]]
+        + ", " + probs[prediction[2]]);
         var para = document.createElement("p");
         para.appendChild(text);
         var predArea = document.getElementById('prediction');
