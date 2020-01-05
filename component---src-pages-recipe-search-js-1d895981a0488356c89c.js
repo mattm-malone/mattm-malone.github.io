@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{198:function(e,t,n){"use strict";n.r(t);var a=n(0),l=n.n(a),c=n(262),r=n(202);t.default=function(){return l.a.createElement(r.f,null,l.a.createElement(c.a,null),l.a.createElement(r.g,{title:"Make ¡t Fresh!",location:"/recipe-search"}),l.a.createElement("center",null,l.a.createElement("h1",null,"In Construction"),l.a.createElement("p",null,"Just give it a bit!")))}}}]);
+//# sourceMappingURL=component---src-pages-recipe-search-js-1d895981a0488356c89c.js.map
